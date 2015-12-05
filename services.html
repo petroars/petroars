@@ -9,8 +9,8 @@
   ================================================== -->
 	<meta charset="utf-8">
 	<title>Syntac | HTML5</title>
-	<meta name="description" content="PETROARS Group spol. s r.o.">
-	<meta name="author" content="PETROARS Group spol. s r.o.">
+	<meta name="description" content="Premium Personal Portfolio HTML5 Template">
+	<meta name="author" content="eriktailor">
 
 	<!-- Mobile Specific Metas
   ================================================== -->
@@ -19,10 +19,10 @@
 	<!-- CSS
   ================================================== -->
 	<link rel="stylesheet" href="css/reset.css">
-	<link rel="stylesheet" href="css/skeleton.css">	
+	<link rel="stylesheet" href="css/skeleton.css">
 	<link rel="stylesheet" href="css/layout.css">
-	<link rel="stylesheet" href="css/animate.css">	
-	
+	<link rel="stylesheet" href="css/animate.css">
+
 	<!--[if lt IE 9]>
 		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
@@ -45,6 +45,7 @@
 	<link href='http://fonts.googleapis.com/css?family=Montserrat:700' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,600,800' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="font/font-awesome.min.css">
+	
 
 </head>
 <body>
@@ -63,13 +64,13 @@
 	
 		<!-- Background Slider -->
 		<div id="background-slider" class="cycle-slideshow" data-cycle-fx="fade" data-cycle-timeout="2500" data-cycle-slides="> div">
-			<div class="bg-slides bg-slide-01"><img src="../img/slider/slider_01.jpg" alt="Petroars Truck"></div>
+			<div class="bg-slides bg-slide-01"></div>
 			<div class="bg-slides bg-slide-02"></div>
 			<div class="bg-slides bg-slide-03"></div>
 		</div>	
 		
 		<!-- Background Video -->
-		<video id="bg-video" width="1920" height="auto" poster="video/poster.jpg" loop="true" controls="controls" preload="auto">
+		<video id="bg-video" width="1920" height="1080" poster="video/poster.jpg" controls="controls" preload="auto">
 			<!-- MP4 for Safari, IE9, iPhone, iPad, Android, and Windows Phone 7 -->
 			<source type="video/mp4" src="video/onemore.mp4" />
 			<!-- WebM/VP8 for Firefox4, Opera, and Chrome -->
@@ -89,12 +90,11 @@
 		<div class="name-area">
 			
 			<!-- Name -->
-			<h1><span class="logo"></span>PETROARS Group</h1>
-			<p>Поставка Европейской инжереной сантехники в Чехию</p>
+			<h1><span class="logo"></span>Steven Dawson</h1>
+			<p>Etiam eget orci magna. Duis eget leo nulla. Lorem ipsum dolor sit amet, consect scelerisque est eu est sodales, at commodo lacus sodales.</p>
 		
 		</div>
-
-		
+	
 		
 		<!-- Navigation -->
 		<nav id="navbar">
@@ -116,10 +116,10 @@
 					<!-- Menu Items -->
 					<ul class="menu">
 						<li data-submenu="profile" class="multi-menu">
-							<a href="index.html" class="active"><span class="bullet"></span><i class="icon-user"><span>My profile</span></i></a>
+							<a href="index.html"><i class="icon-user"><span>My profile</span></i></a>
 						</li>
 						<li data-submenu="services" class="multi-menu">
-							<a href="services.html"><i class="icon-suitcase"><span>Services</span></i></a>
+							<a href="services.html" class="active"><span class="bullet"></span><i class="icon-suitcase"><span>Services</span></i></a>
 						</li>					
 						<li data-submenu="portfolio" class="multi-menu">
 							<a href="portfolio3col.html"><i class="icon-picture"><span>Portfolio</span></i></a>
@@ -149,19 +149,19 @@
 		
 			<!-- Profile Submenu -->
 			<ul class="submenu" data-submenu="profile">
-				<li><a href="index.html" class="active submenu-active"><i class="icon-user"><span>Profile Details</span></i></a></li>
+				<li><a href="index.html" class=""><i class="icon-user"><span>Profile Details</span></i></a></li>
 				<li><a href="blog.html"><i class="icon-reorder"><span>My Blog</span></i></a></li>
 			</ul>
 			
 			<!-- Services Submenu -->
 			<ul class="submenu" data-submenu="services">
-				<li><a href="services.html"><i class="icon-suitcase"><span>Services</span></i></a></li>
+				<li><a href="services.html" class="active submenu-active"><i class="icon-suitcase"><span>Services</span></i></a></li>
 				<li><a href="pricing.html"><i class="icon-bar-chart"><span>Pricing Tables</span></i></a></li>
 			</ul>			
 			
 			<!-- Portfolio Submenu -->
 			<ul class="submenu" data-submenu="portfolio">
-				<li><a href="portfolio3col.html"><i class="icon-picture"><span>Portfolio 3 Columns</span></i></a></li>
+				<li><a href="portfolio3col.html" class=""><i class="icon-picture"><span>Portfolio 3 Columns</span></i></a></li>
 				<li><a href="portfolio4col.html"><i class="icon-picture"><span>Portfolio 4 Columns</span></i></a></li>
 				<li><a href="portfolio2col.html"><i class="icon-picture"><span>Portfolio 2 Columns</span></i></a></li>				
 			</ul>			
@@ -169,7 +169,7 @@
 		</div><!-- / Container -->
 		
 	</nav><!-- / Submenu -->
-	
+
 	
 	
 	<!-- Intro -->
@@ -180,7 +180,7 @@
 		
 			<div class="sixteen columns">
 			
-				<h1 class="page-title">[ <span>My profile</span> ]</h1>
+				<h1 class="page-title">[ <span>Services</span> ]</h1>
 				
 				<p class="lead">Etiam eget orci magna. Duis eget leo nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque est eu est sodales, at commodo lacus sodales. Sed nec adipiscing mauris, nec scelerisque lacus.</p>
 			
@@ -193,105 +193,113 @@
 	
 	
 	
-	<!-- Profile -->
-	<section id="profile">
-	
-		<div class="profile-navbar"></div>
-	
-		<!-- Container -->
-		<div class="container">		
-		
-			<div class="five columns">
-			
-				<!-- Profile Image -->
-				<div class="profile-image">
-					<img src="img/portrait.jpg" alt="Myself"/>
-					<div class="white-bullet"></div>
-				</div>
-				
-				<!-- Profile Info -->
-				<div class="profile-info">
-					<p><span class="bold">Full Name</span><span>Steven Dawson</span></p>
-					<p><span class="bold">Birthday</span><span>March 12. 1977.</span></p>					
-					<p><span class="bold">Lives in</span><span>Paris, France</span></p>					
-				</div>
-			
-			</div>
-		
-			<div class="eleven columns">
-			
-				<!-- Profile Tabs -->
-				<ul class="profile-tabs">
-					<li><i class="icon-star-empty"></i></li>
-					<li class="active"><i class="icon-list"></i></li>						
-					<li><i class="icon-forward"></i></li>						
-					<li><i class="icon-retweet"></i></li>						
-					<li><i class="icon-bar-chart"></i></li>						
-				</ul>
-				
-				<!-- Profile Tabs Content -->
-				<div class="profile-tabs-content">
-				
-					<!-- My Story -->
-					<div>
-						<h2>My story</h2>
-						<p>Aliquam leo ante, eleifend non aliquam id, porta malesuada ligula. Curabitur quis hendrerit lectus. Sed vel eleifend diam. In hac habitasse platea dictumst. Aenean mi nisl, accumsan quis pulvinar vel, placerat et diam. Aenean quis ornare turpis, non tincidunt orci. Aliquam mattis vestibulum justo. Aenean mi nisl, accumsan quis pulvinar vel, placerat et diam. Aenean quis ornare turpis.</p>
-					</div>				
-				
-					<!-- About Me -->
-					<div>
-						<h2>About me</h2>
-						<p>Aliquam leo ante, eleifend non aliquam id, porta malesuada ligula. Curabitur quis hendrerit lectus. Sed vel eleifend diam. In hac habitasse platea dictumst. Aenean mi nisl, accumsan quis pulvinar vel, placerat et diam. Aenean quis ornare turpis, non tincidunt orci. Aliquam mattis vestibulum justo. Aenean mi nisl, accumsan quis pulvinar vel, placerat et diam. Aenean quis ornare turpis.</p>
-					</div>
-
-					<!-- My Hobbies -->
-					<div>
-						<h2>My hobbies</h2>
-						<p>Aliquam leo ante, eleifend non aliquam id, porta malesuada ligula. Curabitur quis hendrerit lectus. Sed vel eleifend diam. In hac habitasse platea dictumst. Aenean mi nisl, accumsan quis pulvinar vel, placerat et diam. Aenean quis ornare turpis, non tincidunt orci. Aliquam mattis vestibulum justo. Aenean mi nisl, accumsan quis pulvinar vel, placerat et diam. Aenean quis ornare turpis.</p>
-					</div>
-					
-					<!-- Future Goals -->
-					<div>
-						<h2>Future goals</h2>
-						<p>Aliquam leo ante, eleifend non aliquam id, porta malesuada ligula. Curabitur quis hendrerit lectus. Sed vel eleifend diam. In hac habitasse platea dictumst. Aenean mi nisl, accumsan quis pulvinar vel, placerat et diam. Aenean quis ornare turpis, non tincidunt orci. Aliquam mattis vestibulum justo. Aenean mi nisl, accumsan quis pulvinar vel, placerat et diam. Aenean quis ornare turpis.</p>
-					</div>
-
-					<!-- Other Infos -->
-					<div>
-						<h2>Other infos</h2>
-						<p>Aliquam leo ante, eleifend non aliquam id, porta malesuada ligula. Curabitur quis hendrerit lectus. Sed vel eleifend diam. In hac habitasse platea dictumst. Aenean mi nisl, accumsan quis pulvinar vel, placerat et diam. Aenean quis ornare turpis, non tincidunt orci. Aliquam mattis vestibulum justo. Aenean mi nisl, accumsan quis pulvinar vel, placerat et diam. Aenean quis ornare turpis.</p>
-					</div>			
-				
-				</div><!-- / Profile Tabs Content -->
-						
-			</div>
-		
-		</div><!-- / Container -->
-		
-	</section><!-- / Profile -->	
-
-	
-	<!-- Twitter Feed -->
-	<section id="twitter-feed">
+	<!-- Process -->
+	<section id="process">
 	
 		<!-- Container -->
 		<div class="container">
 		
-			<div class="three columns">
-			
-				<div class="twitter-sign"><i class="icon-twitter"></i></div>
-			
+			<div class="process-divider divider"></div>
+		
+			<!-- Process Part 1-->
+			<div class="four columns">
+				<div class="process-part">
+					<div class="icon-box"><i class="icon-sitemap"></i></div>
+					<h2>Wireframe</h2>
+					<p>Integer lacus lacus, elementum a consequate non, porta ac neque nulla dapibus nibh maecenas.</p>
+				</div>
 			</div>
 			
-			<div class="thirteen columns">
-			
-				<p class="tweet"></p>
-			
+			<!-- Process Part 2-->
+			<div class="four columns">
+				<div class="process-part">
+					<div class="icon-box"><i class="icon-pencil"></i></div>
+					<h2>The Design</h2>
+					<p>Integer lacus lacus, elementum a consequate non, porta ac neque nulla dapibus nibh maecenas.</p>
+				</div>
 			</div>
+
+			<!-- Process Part 3-->
+			<div class="four columns">
+				<div class="process-part">
+					<div class="icon-box"><i class="icon-html5"></i></div>
+					<h2>Development</h2>
+					<p>Integer lacus lacus, elementum a consequate non, porta ac neque nulla dapibus nibh maecenas.</p>
+				</div>
+			</div>
+
+			<!-- Process Part 4-->
+			<div class="four columns">
+				<div class="process-part">
+					<div class="icon-box"><i class="icon-desktop"></i></div>
+					<h2>Delivery</h2>
+					<p>Integer lacus lacus, elementum a consequate non, porta ac neque nulla dapibus nibh maecenas.</p>
+				</div>
+			</div>			
 		
 		</div><!-- / Container -->
+		
+	</section><!-- / Process -->	
+
 	
-	</section><!-- / Twitter Feed -->
+	
+	<!-- Testimonials -->
+	<section id="testimonials">
+	
+		<!-- Container -->
+		<div class="container">
+
+				<div class="sixteen columns">
+					
+					<!-- Prev -->
+					<span id="prev" class="prev"><i class="icon-angle-left"></i></span>
+					
+					<!-- Quote Slider -->
+					<ul id="quote-slider" class="cycle-slideshow" 
+					data-cycle-fx="fade" data-cycle-timeout="3500" data-cycle-slides="> li" data-cycle-prev="#prev" data-cycle-next="#next">
+					
+						<!-- Quote 1 -->
+						<li class="quote">
+							<img src="img/customer_01.jpg" class="avatar" alt="" />
+							<span class="white-bullet-right"></span>
+							<blockquote>
+								<h2>John Smith</h2>
+								Donec libero dolor, congue eu hendrerit Sed cursus felis vitae diam consequat, eu suscipit mauris venenatis. Donec libero dolor, congue eu hendrerit non, blandit at urna. Nunc mollis justo nisl, nec egestas mauris dignissim sed. Donec ornare tristique lectus ac semper.
+							</blockquote>
+						</li>	
+						
+						<!-- Quote 2 -->
+						<li class="quote">
+							<img src="img/customer_02.jpg" class="avatar" alt="" />
+							<span class="white-bullet-right"></span>
+							<blockquote>
+								<h2>Jessie Clark</h2>
+								Sed cursus felis vitae diam consequat, eu suscipit mauris venenatis. Donec libero dolor, congue eu hendrerit non, blandit at urna. Interdum et malesuada fames ac ante ipsum primis in eu suscipit mauris venenatis. Donec libero dolor, congue felis vitae. 
+							</blockquote>
+						</li>						
+						
+						<!-- Quote 3 -->
+						<li class="quote">
+							<img src="img/customer_03.jpg" class="avatar" alt="" />
+							<span class="white-bullet-right"></span>
+							<blockquote>
+								<h2>Joseph Wilson</h2>
+								Interdum et cursus felis vitae diam consequat, eu suscipit mauris venenatis. Donec libero dolor, congue eu hendrerit non, blandit at urna. Nunc mollis justo nisl, nec egestas mauris dignissim sed. Donec ornare tristique lectus ac semper. Interdum et malesuada fames ac ante ipsum.
+							</blockquote>
+						</li>	
+						
+					</ul><!-- / Quote Slider -->
+					
+					<!-- Next -->					
+					<span id="next" class="next"><i class="icon-angle-right"></i></span>	
+					
+				</div>		
+		
+		</div><!-- / Container -->		
+	
+	</section><!-- / Testimonials-->
+	
+
 	
 	
 	
@@ -319,6 +327,7 @@
 
 	</footer><!-- / Footer -->
 	
+	
 
 </div><!-- / Wrapper -->
 
@@ -332,10 +341,6 @@
 <script type="text/javascript" src="js/mediaelement-and-player.min.js"></script>
 <script type="text/javascript" src="js/tweetie.js"></script>
 <script type="text/javascript" src="js/script.js"></script>
-<script type="text/javascript">
-$('.tweet').twittie();
-</script>
-
 
 <!-- End Document
 ================================================== -->

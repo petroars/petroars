@@ -72,7 +72,7 @@ small { font-size: 80%; }
 /* Page Title */
 .page-title {text-align: center; font-size: 57px; color: #f0f0f0; margin: 77px 0; line-height: 47px; opacity: 0; filter: alpha(opacity=0);}
 
-.lead { margin: 0 auto 80px; width: 90%; text-align: center; line-height: 32px;}
+.lead { margin: 0 auto 80px; width: 90%; text-align: center; line-height: 32px; text-align: justify;}
 
 .white-bullet { width: 100%; height: 11px; margin-top: -11px; background: url('../img/bullets/white_bullet.png') no-repeat center center;}
 
@@ -139,7 +139,7 @@ section {background: #DAD8D4;}
 
 .menu span {display: block; text-transform: uppercase; font-size: 12px; font-family: 'Open Sans', sans-serif; margin-top: 20px; line-height: 12px; }
 
-.menu i {color: #9e9b96; font-size: 50px; padding-top: 65px; display: block !important; }
+.menu i {color: #FFFFFF; font-size: 50px; padding-top: 65px; display: block !important; }
 
 .menu .last {border-right: 1px solid #5b5a5a;}
 

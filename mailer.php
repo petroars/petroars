@@ -4,7 +4,7 @@ $name = $_POST['name'];
 $email = $_POST['email'];
 $message = $_POST['message'];
  
-$to = 'yourdomain@host.com';
+$to = 'web@mianofv.ru';
 $subject = 'the subject';
 $message = 'FROM: '.$name.' EMAIL: '.$email.' MESSAGE: '.$message;
 $headers = 'From: '. $email. "\r\n";

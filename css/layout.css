@@ -29,6 +29,8 @@
 /* 2. Basics & Typography */
 /*--------------------------------------------------------------------- */
 
+#contact-form {display:none;}
+
 body {
 	background: #dad8d4;
 	font: 14px/23px 'Open Sans', sans-serif;

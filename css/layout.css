@@ -305,7 +305,7 @@ section {background: #DAD8D4;}
 /* 3 Col Portfolio Item */
 .picture {width: auto; height: 177px; overflow: hidden; position: relative;}
 
-.picture img {width: 100%; height: auto; -webkit-transition: all 0.2s ease-in-out; -moz-transition: all 0.2s ease-in-out; -ms-transition: all 0.2s ease-in-out; 
+.picture img {margin-top: -40px; width: 100%; height: auto; -webkit-transition: all 0.2s ease-in-out; -moz-transition: all 0.2s ease-in-out; -ms-transition: all 0.2s ease-in-out; 
 -o-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out;}
 
 .portfolio-item {background: #e7e6e5; margin: 0 auto 45px; text-align: center; width: 280px;}

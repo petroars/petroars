@@ -152,13 +152,9 @@
 		
 			<div class="sixteen columns">
 			
-				<h1 class="page-title">[ <span>О фирме</span> ]</h1>
+				<h1 class="page-title">[ <span>Контакты</span> ]</h1>
 				
-				<p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce euismod hendrerit felis. Fusce sed pretium odio. Phasellus tempus tincidunt nisl sed pulvinar. Pellentesque commodo justo et mauris imperdiet, eu viverra urna vestibulum. Fusce venenatis maximus eleifend. Sed facilisis est nec suscipit lobortis. Mauris dignissim felis ac dolor sodales consequat. Curabitur quis porta magna. Vestibulum ante eros, egestas a tristique eu, mollis a velit. Quisque sodales fermentum nisl non semper.
-
-Nam sit amet mattis lorem. Phasellus ornare elit ante, vehicula convallis odio dapibus vitae. Mauris venenatis, arcu vel mollis aliquam, sapien urna aliquet arcu, non varius quam nunc et diam. Cras id tortor nec metus sodales iaculis. Nam et arcu non eros placerat suscipit ullamcorper sed dui. Aliquam erat volutpat. Etiam feugiat ex nec ante pretium accumsan. Vestibulum sed ullamcorper tortor, in aliquet ipsum. Donec laoreet enim nec justo elementum, in euismod felis pretium. Aliquam ultrices ornare magna ac congue. Sed aliquet, sapien a volutpat dapibus, elit urna lobortis nulla, et mollis eros urna eu risus. Nullam ac ex sem.
-
-Aliquam consequat eros ligula, a mattis urna semper eget. Donec lacinia lobortis libero, in aliquam ligula elementum vitae. Integer imperdiet ultrices nisl, a imperdiet velit pulvinar id. Cras ligula metus, auctor in leo in, pellentesque euismod justo. Vestibulum lacinia odio in sem posuere congue vitae ac justo. Sed sollicitudin, nulla in ultrices ullamcorper, enim ex cursus odio, et molestie nibh risus sit amet risus. Vivamus quis luctus purus, vel placerat mauris. Donec scelerisque pulvinar hendrerit. Donec pretium tempus semper. Nunc cursus egestas metus, ac aliquet nunc pulvinar at. Ut porta orci ornare, pellentesque velit vel, fermentum orci. Quisque ut rutrum justo, vel tempus nulla. Quisque eu massa velit. Suspendisse cursus non enim sit amet malesuada. Aenean vulputate feugiat bibendum.</p>
+				<p class="lead">Etiam eget orci magna. Duis eget leo nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque est eu est sodales, at commodo lacus sodales. Sed nec adipiscing mauris, nec scelerisque lacus.</p>
 			
 			</div>
 		
@@ -166,11 +162,57 @@ Aliquam consequat eros ligula, a mattis urna semper eget. Donec lacinia lobortis
 		
 	</section><!-- / Intro -->	
 	
+	 
 	
+	<!-- Contact Form -->
+	<section id="contact">
 	
-	
+		<!-- Container -->
+		<div class="container">
 
+			<div class="eight columns">
+			<form action="http://formspree.io/web@mianofv.ru" method="POST" id="contact-form">
+    <input type="text" name="name" class="text" spellcheck="false" placeholder="Your name / company" required />
+    <input type="email" name="_replyto" class="text" spellcheck="false" placeholder="Your e-mail address" required />
+	<textarea class="textarea" name="message" spellcheck="false" placeholder="text" required /></textarea>
+    <input type="submit" value="Send" class="button">
+	
+</form> 
 
+	
+				<form id="contact-form2" action="http://formspree.io/web@mianofv.ru" method="POST">
+					<input type="text" class="text" name="name" spellcheck="false" placeholder="Имя / Фирма" required />
+					<input type="email" class="text" name="email" spellcheck="false" placeholder="Ваша эл. почта" required />
+					<textarea class="textarea" name="message" spellcheck="false" placeholder="Сообщение" required ></textarea>
+					<input type="submit" class="button" value="Отправить сообщение" />
+					<input type="hidden" name="_next" value="//petroars.cz/contact.html" />
+				</form>
+				<div id="success"></div>
+			</div>
+			
+			
+			
+			<div class="eight columns">
+			
+			
+				<ul class="contact-details">
+					<li><i class="icon-comment"></i><span>info@petroars.com</span></li>
+					<li><i class="icon-map-marker"></i><span>Kabelín 75, 250 01 Zápy</span></li>
+					<li><i class="icon-phone"></i><span>+420 123 456 789</span></li>
+					<li><i class="icon-flag"></i><span>www.petroars.cz</span></li>				
+				</ul>
+			
+			
+			</div>
+		
+		</div><!-- / Container -->		
+	
+	</section><!-- / Contact Form-->
+	
+	
+	
+	<!-- Map -->
+	<section id="map1"></section>
 	
 	
 	<!-- Footer -->
@@ -193,7 +235,6 @@ Aliquam consequat eros ligula, a mattis urna semper eget. Donec lacinia lobortis
 		</div><!-- / Container -->
 
 	</footer><!-- / Footer -->
-	
 
 </div><!-- / Wrapper -->
 
@@ -201,17 +242,88 @@ Aliquam consequat eros ligula, a mattis urna semper eget. Donec lacinia lobortis
 <!-- Javascript
 ================================================== -->
 <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>	
 <script type="text/javascript" src="js/waypoints.min.js"></script>
 <script type="text/javascript" src="js/waypoints-sticky.min.js"></script>
-<script type="text/javascript" src="js/jquery.cycle2.js"></script>
 <script type="text/javascript" src="js/mediaelement-and-player.min.js"></script>
-<script type="text/javascript" src="js/tweetie.js"></script>
+<script type="text/javascript" src="js/jquery.cycle2.js"></script>
 <script type="text/javascript" src="js/script.js"></script>
+<!-- Yandex.Metrika counter --><script type="text/javascript"> (function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter34058360 = new Ya.Metrika({ id:34058360, clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true, ut:"noindex" }); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks");</script><noscript><div><img src="https://mc.yandex.ru/watch/34058360?ut=noindex" style="position:absolute; left:-9999px;" alt="" /></div></noscript><!-- /Yandex.Metrika counter -->
 <script type="text/javascript">
-$('.tweet').twittie();
+// Replace with your coordinates
+// -----------------------------------
+
+var latitude = 50.1740971,
+	longitude = 14.6979831;
+	
+// -----------------------------------
+var myMap = (function(a,b,c){
+	var latA = a;
+	var latB = b;
+	var map1 = c;
+
+	var styles = [
+		{
+			stylers: [ { saturation: -200 } ]
+		},{
+		    featureType: 'road',
+			elementType: 'geometry',
+			stylers: [
+				{ hue: "#cccccc" },
+				{ visibility: 'simplified' }
+			]
+		        },{
+		            featureType: 'road',
+		            elementType: 'labels',
+		            stylers: [
+		                { visibility: 'off' }
+		            ]
+		        }
+	],
+				
+	lat = latA, lng = latB,	
+		
+	// Create a new StyledMapType object, passing it the array of styles,
+	// as well as the name to be displayed on the map type control.
+	customMap = new google.maps.StyledMapType(styles,
+		{name: 'Styled Map'}),
+		
+	// Create a map object, and include the MapTypeId to add
+	// to the map type control.
+	mapOptions = {
+		zoom: 14,
+		scrollwheel: false,
+		center: new google.maps.LatLng( lat, lng ),
+		streetViewControl: false,
+		zoomControl: true,
+		panControl: false,
+		draggable: false,	
+		mapTypeControl: false,		
+		mapTypeControlOptions: {
+			mapTypeIds: [google.maps.MapTypeId.ROADMAP],
+					
+		}
+	},
+	
+	map = new google.maps.Map(document.getElementById(map1), mapOptions),
+		myLatlng = new google.maps.LatLng( lat, lng ),
+	
+	marker = new google.maps.Marker({
+		position: myLatlng,
+		map: map,
+		icon: ""
+				
+	});
+
+	//Associate the styled map with the MapTypeId and set it to display.
+	map.mapTypes.set('map_style', customMap);
+	map.setMapTypeId('map_style');	
+});
+
+myMap(latitude, longitude, 'map1');
 </script>
 
-<!-- Yandex.Metrika counter --><script type="text/javascript"> (function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter34058360 = new Ya.Metrika({ id:34058360, clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true, ut:"noindex" }); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks");</script><noscript><div><img src="https://mc.yandex.ru/watch/34058360?ut=noindex" style="position:absolute; left:-9999px;" alt="" /></div></noscript><!-- /Yandex.Metrika counter -->
+
 <!-- End Document
 ================================================== -->
 </body>
